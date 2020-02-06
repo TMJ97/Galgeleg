@@ -1,8 +1,6 @@
 package galgeleg;
 
 public interface GalgelegI extends java.rmi.Remote {
-    Galgelogik() throws java.rmi.RemoteException;
-
     void nulstil() throws java.rmi.RemoteException;
 
     void logStatus() throws java.rmi.RemoteException;
@@ -14,4 +12,8 @@ public interface GalgelegI extends java.rmi.Remote {
     String getSynligtOrd() throws java.rmi.RemoteException;
 
     boolean erSpilletSlut() throws java.rmi.RemoteException;
+
+    boolean erSpilletTabt() throws java.rmi.RemoteException;
+
+    boolean erSpilletVundet() throws java.rmi.RemoteException;
 }

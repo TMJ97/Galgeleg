@@ -23,7 +23,7 @@ public class Galgelogik extends UnicastRemoteObject implements GalgelegI {
     private boolean spilletErVundet;
     private boolean spilletErTabt;
 
-    public Galgelogik() {
+    public Galgelogik() throws java.rmi.RemoteException {
         muligeOrd.add("bil");
         muligeOrd.add("computer");
         muligeOrd.add("programmering");
